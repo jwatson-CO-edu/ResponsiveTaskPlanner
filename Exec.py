@@ -65,9 +65,14 @@ class StateExec:
         return self.status in (TStat.SUCCESS, TStat.FAILURE,)
 
 
+    def begin( self ):
+        """ Execute state activities """
+        raise NotImplementedError( f"{self.__class__.__name__} needs `begin()` implementation!" )
+
+
     def tick( self ):
         """ Execute state activities """
-        raise NotImplementedError( f"{self.__class__.__name__} needs `run()` implementation!" )
+        raise NotImplementedError( f"{self.__class__.__name__} needs `tick()` implementation!" )
     
 
     def end( self ):
