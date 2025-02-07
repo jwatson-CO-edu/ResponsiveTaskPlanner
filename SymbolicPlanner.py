@@ -2,7 +2,7 @@
 
 from collections import deque
 
-from Exec import TStat, StateExec
+# from BT import TStat, StateExec
 
 
 ########## STMBOLIC PLANNER ########################################################################
