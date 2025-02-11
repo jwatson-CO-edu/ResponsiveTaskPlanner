@@ -14,6 +14,8 @@ A Responsive and Modular task planner for robotic manipulation
 ## Memory
 ### Ideas
 * Group obervations by their distributions
+* Merge before snap
+* Snap before Bayes
 ### Development
 
 ## Symbolic Planning

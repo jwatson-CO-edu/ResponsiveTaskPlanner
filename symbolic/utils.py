@@ -86,7 +86,6 @@ def extract_dct_values_in_order_conf( dct, keyLst, insertZero = False ):
     return rtnLst
 
 
-
 ########## FILER OPERATIONS ########################################################################
 
 def get_paths_in_dir_with_prefix( directory, prefix ):
