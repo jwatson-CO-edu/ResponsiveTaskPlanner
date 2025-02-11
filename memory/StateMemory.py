@@ -6,3 +6,9 @@ from collections import deque
 
 
 ########## MEMORY ##################################################################################
+
+class StateMemory:
+    """ Manages the current concept of state """
+
+    def __init__( self ):
+        pass
